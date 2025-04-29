@@ -1,0 +1,176 @@
+.row-fluid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row-fluid-wrapper{
+    margin: 38px 0;
+}
+
+hr{
+    border: 1px solid #d9dbde;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* Our Blog */
+
+.blog-heading-box{
+    max-width: 780px;
+    text-align: center;
+}
+
+.blog-posts{
+    display: flex;
+    gap: 10px;
+}
+
+.main-blog-text{
+    margin-left: 30px;
+}
+
+.sm-blog{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--primary_btn-color) !important;
+}
+
+.web{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.h4{
+    font-family: "Arboria-Bold";
+    color: var(--heading-color2);
+    font-weight: 700;
+    margin: 0;
+    font-size: 30px;
+    line-height: 100%;
+    text-decoration: underline var(--heading-color2);
+}
+
+.side-blog{
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.side-blog-link{
+    text-decoration: none;
+}
+
+/* All Posts */
+
+.posts-header{
+    display: flex;
+    width: 100%;
+    gap: 23px;
+    justify-content: flex-start;
+}
+
+.posts-header-link{
+    text-decoration: none;
+    color: var(--para-color);
+}
+
+.active-link{
+    color: var(--heading-color2) !important;
+}
+
+.posts-body{
+    margin-top: 20px;
+}
+
+.posts-row1{
+    display: flex;
+    gap: 30px;
+}
+
+.posts-row2, .posts-row3, .posts-row4{
+    margin-top: 62px;
+    display: flex;
+    gap: 30px;
+}
+
+.post{
+    padding: 10px;
+    max-width: 364px;
+}
+
+.post-text{
+    margin-top: 10px;
+}
+
+.post-text-link{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.newsletter{
+    border: 1px solid #dee2ea;
+    background: #f0ece8;
+    border-radius: 16px;
+}
+
+.newsletter-body{
+    padding: 40px;
+}
+
+.newsletter-email{
+    margin-top: 30px;
+}
+
+.news-sm{
+    color: var(--heading-color2);
+}
+
+.w-100{
+    width: 100%;
+}
+
+#contact .row-fluid-wrapper{
+    margin: 0;
+}
+
+.footer .row-fluid-wrapper{
+    margin: 0;
+    width: 100%;
+}
+
+.footer-contact div img{
+    width: auto;
+}
+
+
+@media (max-width: 768px){
+    .row-fluid-wrapper{
+        padding: 30px 0;
+      }
+
+    h1{
+        font-size: 40px;
+        line-height: 36px;
+    }
+
+    .primary_btn{
+        width: 100%;
+    }
+
+    .blog-posts{
+        flex-direction: column;
+    }
+
+    .posts-row1, .posts-row2, .posts-row3, .posts-row4{
+        flex-direction: column;
+    }
+
+    .post{
+        max-width: 100%;
+    }
+}

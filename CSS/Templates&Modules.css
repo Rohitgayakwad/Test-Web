@@ -1,0 +1,146 @@
+.templates > .row-fluid-wrapper{
+    padding: 56px 0;
+}
+
+.template-header{
+    max-width: 754px;
+}
+
+hr{
+    margin-top: 28px;
+    margin-bottom: 22px;
+    border: 1px solid #dee2ea;
+}
+
+.provide-templates{
+    display: flex;
+    gap: 22px;
+}
+
+.provide-template-links{
+    text-decoration: none;
+}
+
+.provide-template-links:active{
+    color: var(--heading-color2);
+}
+
+.filter{
+    margin-top: 24px;
+}
+
+.select_check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type = checkbox]{
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--white-color);
+}
+
+input:checked{
+    border: none;
+    background: var(--primary_btn-color);
+    color: var(--white-color);
+}
+
+.p-small{
+    margin: 0;
+}
+
+.modules{
+    display: flex;
+    gap: 35px;
+}
+
+.filter{
+    width: 30%;
+    padding-right: 48px;
+}
+
+.filter h6{
+    margin-bottom: 10px;
+}
+
+.all-works{
+    display: grid;
+    width: 70%;
+    grid-template-columns: auto auto;
+    gap: 50px 20px;
+    margin-top: 42px;
+}
+
+.work-img{
+    max-width: 371.14px;
+    height: 264.53px;
+    border-radius: 8px;
+    border: 1px solid #dee2ea;
+}
+
+.work-img:hover{
+    border: 1px solid var(--primary_btn-color);
+    cursor: pointer;
+    box-shadow: 0px 4px 30px 0px #00000029;
+    backdrop-filter: blur(74px);
+
+}
+
+.tags{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.work-link{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.simple-cta{
+    text-decoration: none;
+    color: var(--primary_btn-color);
+}
+
+.primary-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 768px){
+
+    .templates > .row-fluid-wrapper{
+        padding: 30px 0;
+    }
+
+    h1{
+        font-size: 52px;
+        line-height: 45px;
+    }
+
+    .p-400{
+        font-size: 22px;
+    }
+
+    .modules{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media (min-width: 769px) and (max-width: 998px){
+    .templates > .row-fluid-wrapper{
+        padding: 40px 0;
+    }
+
+    h1{
+        font-size: 58px;
+        line-height: 48px;
+    }
+}

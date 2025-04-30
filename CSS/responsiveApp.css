@@ -264,24 +264,6 @@
   .working-content {
     margin-top: 20px;
     }
-    
-    .hubspot-certified{
-      margin-top: 80px;
-    }
-
-  .hubspot-text{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .hubspot-logos{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .hubspot-logos small{
-    padding-left: 8px;
-  }
 
   .hubspot-certified{
     display: none;

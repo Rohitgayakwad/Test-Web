@@ -385,6 +385,10 @@
     display: block;
   }
 
+  .footer-con-left{
+    width: 100%;
+  }
+
   .footer-con-right {
     display: none;
   }

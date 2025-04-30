@@ -1138,6 +1138,19 @@ textarea::placeholder {
   justify-content: space-between;
 }
 
+.footer-con-left{
+  width: 50%;
+}
+
+.footer-con-right{
+  width: 50%;
+}
+
+.footer-con-right img{
+  width: 100%;
+  height: auto;
+}
+
 .footer-con-left p{
   margin-top: 15px;
 }

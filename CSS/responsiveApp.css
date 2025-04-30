@@ -591,6 +591,15 @@
   .counter{
     gap: 50px;
   }
+
+  .hubspot-text{
+  flex-wrap: wrap;
+  text-align: center;
+  }
+
+  .hubspot_heading{
+    width: 100%;
+  }
 }
 
 @media(min-width: 999px){

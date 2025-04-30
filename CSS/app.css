@@ -803,7 +803,7 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding-top: 33px;
   padding-bottom: 26px;
   padding-left: 30px;
@@ -811,8 +811,7 @@ textarea::placeholder {
 }
 
 .hubspot_heading{
-  width: 100%;
-  text-align: center;
+  width: 36%;
 }
 
 .hubspot_heading h3{

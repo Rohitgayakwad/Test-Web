@@ -851,6 +851,10 @@ textarea::placeholder {
   backdrop-filter: blur(74px);
 }
 
+.counters h3{
+  margin-bottom: 10px;
+}
+
 .service-container .row-fluid-wrapper{
   padding-top: 164px;
   padding-bottom: 170px;

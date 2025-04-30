@@ -501,11 +501,6 @@
     margin-top: 40px;
   }
 
-  .hubspot_heading{
-    width: min-content;
-  }
-
-
   .header-content {
     flex-direction: row;
     padding: 40px 20px;
@@ -591,6 +586,10 @@
 
   .projects .row-fluid-wrapper2{
     padding: 80px 0;
+  }
+
+  .counter{
+    gap: 50px;
   }
 }
 

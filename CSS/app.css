@@ -278,6 +278,14 @@ small {
   color: var(--primary_btn-color);
 }
 
+.white_cta a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: var(--heading-color2);
+}
+
 .s-button {
   border-radius: 8px;
   cursor: pointer;
@@ -446,6 +454,7 @@ form textarea {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  margin-top: 10px;
   letter-spacing: 0px;
   color: var(--para-color);
 }
@@ -579,10 +588,6 @@ textarea::placeholder {
   margin-bottom: 27px;
 }
 
-.main-text {
-  max-width: 686px;
-}
-
 .para {
   max-width: 589px;
   margin-bottom: 18px;
@@ -611,7 +616,6 @@ textarea::placeholder {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  margin-top: 10px;
   align-items: center;
 }
 
@@ -654,7 +658,7 @@ textarea::placeholder {
 
 .banner-img img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .brands {
@@ -738,7 +742,8 @@ textarea::placeholder {
 }
 
 #working {
-  background: #dee2ea;
+  border: 1px solid #dee2ea;
+  background: #F2F5FB;
 }
 
 .working .row-fluid-wrapper{

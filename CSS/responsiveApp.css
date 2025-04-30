@@ -115,6 +115,7 @@
     flex-direction: column;
     justify-content: center;
     width: auto;
+    gap: 10px;
   }
 
   .primary-btn{
@@ -123,6 +124,16 @@
 
   .primary-btn a {
     width: 100%;
+  }
+
+  .white_cta{
+    width: 100%;
+    text-align: center;
+  }
+
+  .white_cta a{
+    width: 100%;
+    padding: 16px 24px;
   }
 
   h6 {
@@ -148,7 +159,7 @@
 
   .brand-logos {
     /* flex-direction: column; */
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .hr-line {
@@ -340,6 +351,14 @@
 
   .review-image-logo{
     margin-top: 20px;
+  }
+
+  .card1{
+    width: 100%;
+  }
+
+  .card2{
+    display: none;
   }
 
   .contact {
@@ -557,6 +576,18 @@
     margin-top: 20px;
   }
 
+  .main-content{
+    flex-direction: column;
+  }
+
+  .main-content-left{
+    width: 100%;
+  }
+
+  .main-content-right{
+    width: 100%;
+  }
+
   .service-names{
     flex-direction: column;
     gap: 8px;
@@ -581,6 +612,18 @@
 
   .hubspot_heading{
     width: 100%;
+  }
+
+  .card1{
+    width: 100%;
+  }
+
+  .card2{
+    display: none;
+  }
+
+  .footer-services{
+    display: none;
   }
 }
 
